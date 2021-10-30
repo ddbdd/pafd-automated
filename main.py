@@ -13,7 +13,7 @@ from PIL import Image
 
 
 from requests import session, post
-
+os.environ['TZ'] = 'Asia/Shanghai'
 
 class Fudan:
     """
