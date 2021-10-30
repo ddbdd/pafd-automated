@@ -10,7 +10,7 @@ import easyocr
 import io
 import numpy
 from PIL import Image
-
+import os
 
 from requests import session, post
 os.environ['TZ'] = 'Asia/Shanghai'
